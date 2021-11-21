@@ -25,7 +25,7 @@
 }
 
 .TestClass {
-  border: 2px solid red;
+  border: 2px solid rgba(200, 50, 1, 0.54);
   padding: 1rem;
   align-items: stretch;
   text-align: left;
