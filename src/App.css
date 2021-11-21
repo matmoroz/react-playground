@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
   }
 }
 
@@ -22,6 +22,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.TestClass {
+  border: 2px solid red;
+  padding: 1rem;
+  align-items: stretch;
+  text-align: left;
 }
 
 .App-link {

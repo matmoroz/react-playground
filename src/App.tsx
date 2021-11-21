@@ -11,16 +11,22 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Moroz uczy Moroza!</p>
         <p>Test Paragrafu !</p>
-        <p>
+        <p className="TestClass">
           <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
+            count +1: {count}
+          </button>
+          <button
+            type="button"
+            onClick={() => setCount((count) => count * count)}
+          >
+            count ^2: {count}
+          </button>
+          <br />
+          <button type="button" onClick={() => setCount((count) => count + -1)}>
+            count - 1: {count}
           </button>
         </p>
-        <span>
-          <button type="button" onClick={() => setCount((count) => count + -1)}>
-            count is: {count}
-          </button>
-        </span>
+        <span></span>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
